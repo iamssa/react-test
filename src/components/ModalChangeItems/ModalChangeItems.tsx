@@ -45,7 +45,7 @@ export const ModalChangeItems: FC<ModalChangeItemsProps> = ({modalState, setModa
 
   useEffect(() => {
     if (modalState) {
-      document.body.style.overflow = 'overlay';
+      document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'auto';
     }
